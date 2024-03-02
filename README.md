@@ -29,11 +29,11 @@ Reason I chose this dataset stemmed from firstly my constant interest in retail 
 
 
 ## Tableau Dashboard
+https://public.tableau.com/app/profile/hayoung7844/viz/CustomerShoppingBehaviorbySegments/Story1?publish=yes
 
 ![image](https://github.com/Hayoung-Zoe-Kim/Instacart_Customer_Behavior_Analysis/blob/main/dashboard1.png)
 ![image](https://github.com/Hayoung-Zoe-Kim/Instacart_Customer_Behavior_Analysis/blob/main/dashboard2.png)
 
-https://public.tableau.com/app/profile/hayoung7844/viz/CustomerShoppingBehaviorbySegments/Story1?publish=yes
 
 ## Analysis & Insights
 | Cluster                          | Avg Basket Size | Avg Number of Orders | Avg Number of Distinct Products Purchased | Avg Reorder Rate | Avg Purchase Interval |
@@ -83,26 +83,14 @@ Time of Purchase: While afternoon shopping on Mondays and Sundays is common acro
 
 
 ## ⭐️ How to apply to Business Strategies
-**1. Personalized Promotions**
+**1. Personalized Promotions**: For Cluster 0, introduce loyalty rewards on fruits and yogurt, and for Cluster 3, offer vegetable bundle deals with complementary health products.
 
-For Cluster 0, introduce loyalty rewards on fruits and yogurt, and for Cluster 3, offer vegetable bundle deals with complementary health products.
+**2. Targeted Product Placement**: For Cluster 2, strategically place baby essentials for easy access and expedite shopping with a 'Family Shopping' lane.
 
-**2. Targeted Product Placement**
+**3. Cross-Selling Opportunities**: Suggest complementary items like granola with yogurt for Clusters 0 and 3 during checkout for effective cross-selling.
 
-For Cluster 2, strategically place baby essentials for easy access and expedite shopping with a 'Family Shopping' lane.
+**4. Store Layout Optimization**: Reorganize the store to cluster top-purchased produce for Clusters 0 and 3, streamlining their shopping experience.
 
-**3. Cross-Selling Opportunities**
+**5. Demand Forecasting and Inventory Management**: Analyze purchase pair frequencies across all clusters to inform inventory management and reduce stockouts.
 
-Suggest complementary items like granola with yogurt for Clusters 0 and 3 during checkout for effective cross-selling.
-
-**4. Store Layout Optimization**
-
-Reorganize the store to cluster top-purchased produce for Clusters 0 and 3, streamlining their shopping experience.
-
-**5. Demand Forecasting and Inventory Management**
-
-Analyze purchase pair frequencies across all clusters to inform inventory management and reduce stockouts.
-
-**6. Time-Based Marketing**
-
-Offer morning specials on baby products for early shoppers in Cluster 2 to capture the peak shopping times.
+**6. Time-Based Marketing**: Offer morning specials on baby products for early shoppers in Cluster 2 to capture the peak shopping times.
