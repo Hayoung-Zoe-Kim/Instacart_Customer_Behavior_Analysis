@@ -3,29 +3,31 @@
 ## Project Overview
 
 #### Purpose
-Reason I chose this dataset stemmed from firstly my constant interest in retail data and secondly my curiosity to find out distinctive shopping behaviors by different customer segments.
+My choice of this dataset was driven by a longstanding interest in retail data and a curiosity to uncover distinct shopping behaviors across different customer segments.
 
 #### Data Source & Preprocessing
-- source: https://www.kaggle.com/competitions/instacart-market-basket-analysis  
-- Data: originally 15 columns, 3,500K rows, but I only used 300K rows due to the Tableau Public's processing capacity 
-- Key Columns: order_id, user_id, aisle, number of order, number of product within an order, order_day_of_week, reordered..
+- source: Instacart Market Basket Analysis on Kaggle
+- Data: Initially comprised 15 columns with over 3.5 million rows. Due to Tableau Public's processing limitations, I analyzed a subset of 300,000 rows.
+- Key Columns: Included order_id, user_id, aisle, number of orders, number of products within an order, order_day_of_week, and reordered status.
 
 #### Business Question
-- How to segment the customers who made purchases?
-- What's the shopping behavior that each segment shows differently
-- What products are most frequently basketed? - market basket analysis
+- How can we segment customers based on their purchasing patterns?
+- What distinct shopping behaviors are exhibited by each segment?
+- Which products are most frequently purchased together? (Market Basket Analysis)
+  
  
 ## Methodology
 #### Customer Segmentation
-- I applied PCA with 6 components to the crosstab counting purchase number of each aisle by user. I chose aisle among product and deparment due to its middle granularity (134 columns)
-- Then I selected 2 components (PCA1 and PCA4) which seemed to compose the most distinctiv clusters.
-- Using K-means Clustering with 4 clusters, I was able to divide customer segments by their purchase items.
+- I performed Principal Component Analysis (PCA) with six components on a crosstab of purchase counts for each aisle by user. Aisles were selected over products and departments due to their intermediate granularity (134 columns).
+- I chose two principal components (PCA1 and PCA4) that appeared to define the most distinctive clusters.
+- With K-means Clustering into four groups, I segmented customers according to their purchasing patterns.
+
 
 #### Market Basket Analysis
-- I generated aisle pairs for each order, merged the cluster group data, and calculated the frequency for each aisle pair and customer group combination
+- I generated pairs of aisles for each order, integrated the cluster group data, and computed the co-purchase frequency for each aisle pair and customer group combination.
 
 #### Visualization
-- Lastly, I created a dashboard that contains a comprehensive shopping behavior analysis of customers with a filter of clutering segment.
+- I developed a dashboard presenting a detailed analysis of customer shopping behavior, complete with a clustering segment filter for in-depth insights.
 
 
 ## Tableau Dashboard
